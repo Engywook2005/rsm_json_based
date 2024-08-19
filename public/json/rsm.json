@@ -15,92 +15,66 @@
       "skills": {
         "title": "Top Skills",
         "items": [
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Core</u>: JavaScript (ES6), Node.js, Jest, PHP, JSON, XML, Python"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Front End</u>: React, HTML5, CSS3, MaterialUI, Bootstrap"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Database</u>: MySQL, Google Big Query, Google Ad Manager, MS Access"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Tooling</u>: Docker, Webpack, Git"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Ad Tech</u>: IAB specifications, Prebid.js, Amazon TAM, Google Publisher Tags, Google Ad Manager, VPAID, Privacy regulations e.g. GDPR and CCPA"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Back End Frameworks</u>: WordPress, Laravel"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>API</u>: REST, GraphQL"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "<u>Developing</u>: NumPy, Pandas, MongoDB"
-            }
-          }
-        ]
+        {
+            "active": true,
+            "text": "<u>Core</u>: JavaScript (ES6), Node.js, Jest, PHP, JSON, XML, Python"
+        },
+        {
+            "active": true,
+            "text": "<u>Front End</u>: React, HTML5, CSS3, MaterialUI, Bootstrap"
+        },
+        {
+            "active": true,
+            "text": "<u>Database</u>: MySQL, Google Big Query, Google Ad Manager, MS Access"
+        },
+        {
+            "active": true,
+            "text": "<u>Tooling</u>: Docker, Webpack, Git"
+        },
+        {
+            "active": true,
+            "text": "<u>Ad Tech</u>: IAB specifications, Prebid.js, Amazon TAM, Google Publisher Tags, Google Ad Manager, VPAID, Privacy regulations e.g. GDPR and CCPA"
+        },
+        {
+            "active": true,
+            "text": "<u>Back End Frameworks</u>: WordPress, Laravel"
+        },
+        {
+            "active": true,
+            "text": "<u>API</u>: REST, GraphQL"
+        },
+        {
+            "active": true,
+            "text": "<u>Developing</u>: NumPy, Pandas, MongoDB"
+        }
+        ]          
       },
       "accomplishments": {
         "title": "Top Accomplishments",
         "items": [
-          {
-            "item": {
-              "active": true,
-              "text": "Modularizing, streamlining, and DRY codebases (all recent employers)"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "Developing custom codebases that can make use of, and contribute to, re-usable libraries"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "Using data analytics to drive actionable insights around user behaviors and to troubleshoot real-world issues"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "Introducting and evangelizing unit tests"
-            }
-          },
-          {
-            "item": {
-              "active": true,
-              "text": "Staying ahead of the trends in ad tech, such as the rise of privacy regulations e.g. GDPR and CCPA and the sunsetting of third party cookies."
-            }
-          }
-        ]
+        {
+            "active": true,
+            "text": "Modularizing, streamlining, and DRY codebases (all recent employers)"
+        },
+        {
+            "active": true,
+            "text": "Developing custom codebases that can make use of, and contribute to, re-usable libraries"
+        },
+        {
+            "active": true,
+            "text": "Using data analytics to drive actionable insights around user behaviors and to troubleshoot real-world issues"
+        },
+        {
+            "active": true,
+            "text": "Introducting and evangelizing unit tests"
+        },
+        {
+            "active": true,
+            "text": "Staying ahead of the trends in ad tech, such as the rise of privacy regulations e.g. GDPR and CCPA and the sunsetting of third party cookies."
+        }
+        ]        
       },
-      "education": {
+    "education": {
         "title": "Education",
         "school": [
           {
@@ -155,42 +129,30 @@
               "skillz": "ES6, React, Next.js, header bidding, video header bidding, Jest",
               "items": [
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Engineered Prebid and Amazon TAM integrations from the ground up."
-                  }
+                  "active": true,
+                  "text": "Engineered Prebid and Amazon TAM integrations from the ground up."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Introduced video header bidding."
-                  }
+                  "active": true,
+                  "text": "Introduced video header bidding."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Increased unit test coverage, enhancing development speed and safety."
-                  }
+                  "active": true,
+                  "text": "Increased unit test coverage, enhancing development speed and safety."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Developed ad rendering strategies that enhanced viewability and boosted bid values."
-                  }
+                  "active": true,
+                  "text": "Developed ad rendering strategies that enhanced viewability and boosted bid values."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Created comprehensive ad injection logic documentation, aligning stakeholders."
-                  }
+                  "active": true,
+                  "text": "Created comprehensive ad injection logic documentation, aligning stakeholders."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Directed user response analysis for new ad types, leveraging Google Ad Manager and Google Analytics."
-                  }
+                  "active": true,
+                  "text": "Directed user response analysis for new ad types, leveraging Google Ad Manager and Google Analytics."
                 }
-              ]
+              ]              
             },
             {
               "id": "zappyride",
@@ -207,24 +169,18 @@
               "skillz": "React, GraphQL API, CSS3, HTML5, statistics, data representation",
               "items": [
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Pioneered inversion-of-control architecture in React, enabling flexible app development."
-                  }
+                  "active": true,
+                  "text": "Pioneered inversion-of-control architecture in React, enabling flexible app development."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Created algorithms to evaluate economic and ecological impacts of \"going electric\" across regions."
-                  }
+                  "active": true,
+                  "text": "Created algorithms to evaluate economic and ecological impacts of \"going electric\" across regions."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Built a platform guiding industrial fleets in transitioning to electric or hydrogen vehicles."
-                  }
+                  "active": true,
+                  "text": "Built a platform guiding industrial fleets in transitioning to electric or hydrogen vehicles."
                 }
-              ]
+              ]              
             },
             {
               "id": "billboard",
@@ -241,30 +197,22 @@
               "skillz": "ES6, TypeScript, NPM, Python, CSS3, Docker, header bidding, video header bidding, viewability verification",
               "items": [
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Replaced legacy ad wrapper, improving compatibility with new site developments."
-                  }
+                  "active": true,
+                  "text": "Replaced legacy ad wrapper, improving compatibility with new site developments."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Reduced development cycles from weeks to days by decoupling ad tech and site codebases."
-                  }
+                  "active": true,
+                  "text": "Reduced development cycles from weeks to days by decoupling ad tech and site codebases."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Created an NPM module to support Video Header Bidding."
-                  }
+                  "active": true,
+                  "text": "Created an NPM module to support Video Header Bidding."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Guided and mentored new hires and junior developers."
-                  }
+                  "active": true,
+                  "text": "Guided and mentored new hires and junior developers."
                 }
-              ]
+              ]              
             },
             {
               "id": "sheknows",
@@ -281,36 +229,26 @@
               "skillz": "ES6, PHP, Laravel, Blade, Docker, privacy regulations, liaising with vendors",
               "items": [
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Refactored a 9000-line JavaScript codebase into modules, enhancing development speed and safety."
-                  }
+                  "active": true,
+                  "text": "Refactored a 9000-line JavaScript codebase into modules, enhancing development speed and safety."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Developed a WordPress plugin to streamline ad tech integration for SHEMedia partners."
-                  }
+                  "active": true,
+                  "text": "Developed a WordPress plugin to streamline ad tech integration for SHEMedia partners."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Implemented Jest unit testing for robust code validation."
-                  }
+                  "active": true,
+                  "text": "Implemented Jest unit testing for robust code validation."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Deployed a network-wide GDPR solution in collaboration with QuantCast."
-                  }
+                  "active": true,
+                  "text": "Deployed a network-wide GDPR solution in collaboration with QuantCast."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Created a WordPress plugin that simplified ad tech integration for SHEMedia's publisher partner sites."
-                  }
+                  "active": true,
+                  "text": "Created a WordPress plugin that simplified ad tech integration for SHEMedia's publisher partner sites."
                 }
-              ]
+              ]              
             },
             {
               "id": "viant",
@@ -327,42 +265,30 @@
               "skillz": "ES6, SQL, GBQ, RTB, VPAID, ActionScript 3.0, ES5, VPAID, Docker, unit testing, viewability verification",
               "items": [
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Led development of a JavaScript video ad platform for playback and event tracking."
-                  }
+                  "active": true,
+                  "text": "Led development of a JavaScript video ad platform for playback and event tracking."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Engineered tools for creating custom video ad formats tailored to clients across diverse industries."
-                  }
+                  "active": true,
+                  "text": "Engineered tools for creating custom video ad formats tailored to clients across diverse industries."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Engineered video viewability verification solutions in partnership with MOAT, Integral Ad Science, and ComScore."
-                  }
+                  "active": true,
+                  "text": "Engineered video viewability verification solutions in partnership with MOAT, Integral Ad Science, and ComScore."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Diagnosed and resolved production issues within hours, using database intelligence."
-                  }
+                  "active": true,
+                  "text": "Diagnosed and resolved production issues within hours, using database intelligence."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Developed a query library for diagnosing and troubleshooting production issues with tracking data."
-                  }
+                  "active": true,
+                  "text": "Developed a query library for diagnosing and troubleshooting production issues with tracking data."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Led development efforts for integrations with third-party video players."
-                  }
+                  "active": true,
+                  "text": "Led development efforts for integrations with third-party video players."
                 }
-              ]
+              ]              
             },
             {
               "id": "abc",
@@ -379,36 +305,27 @@
               "skillz": "ActionScript 3.0, ES5, HTML5, CSS, PHP, SQL, Visual Basic",
               "items": [
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Directed a multi-disciplinary team for nationwide live online video broadcasts."
-                  }
+                  "active": true,
+                  "text": "Directed a multi-disciplinary team for nationwide live online video broadcasts."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Developed automated solution for entering large Nielsen data sets, saving the team weeks of manual effort."
-                  }
+                  "active": true,
+                  "text": "Developed automated solution for entering large Nielsen data sets, saving the team weeks of manual effort."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Led two website restructures, integrating modern technologies."
-                  }
+                  "active": true,
+                  "text": "Led two website restructures, integrating modern technologies."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Enhanced content production and updates through reusable methods and cross-platform XML schemas."
-                  }
+                  "active": true,
+                  "text": "Enhanced content production and updates through reusable methods and cross-platform XML schemas."
                 },
                 {
-                  "item": {
-                    "active": true,
-                    "text": "Developed the inaugural mobile version of the website."
-                  }
+                  "active": true,
+                  "text": "Developed the inaugural mobile version of the website."
                 }
               ]
+              
             }
           ]          
       }
