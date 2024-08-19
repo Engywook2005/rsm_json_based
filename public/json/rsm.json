@@ -100,152 +100,6 @@
           }
         ]
       },
-      "experience": {
-        "title": "Professional Exprience",
-        "positions": [
-          {
-            "id": "currentProjects3",
-            "title": "Python/Docker Developer - Self Employed",
-            "duration": {
-              "start": "2024",
-              "end": "Present"
-            },
-            "headline": "Developing Docker containers for learning, sandboxing, development, and API integration.",
-            "skillz": "Python, Docker, GraphQL, API, AI Prompts"
-          },
-          {
-            "id": "apartmentTherapy",
-            "title": "Software Engineer, Ad Tech",
-            "company": {
-              "coName": "Apartment Therapy Media"
-            },
-            "duration": {
-              "start": "2021",
-              "end": "2023"
-            },
-            "headline": "Optimized ad tech functionality and header bidding for lifestyle websites.",
-            "skillz": "ES6, React, Next.js, header bidding, video header bidding, Jest",
-            "details": {
-              "item": [
-                "Engineered Prebid and Amazon TAM integrations from the ground up.",
-                "Introduced video header bidding.",
-                "Increased unit test coverage, enhancing development speed and safety.",
-                "Developed ad rendering strategies that enhanced viewability and boosted bid values.",
-                "Created comprehensive ad injection logic documentation, aligning stakeholders.",
-                "Directed user response analysis for new ad types, leveraging Google Ad Manager and Google Analytics."
-              ]
-            }
-          },
-          {
-            "id": "zappyride",
-            "title": "Senior Front End Engineer",
-            "company": {
-              "coName": "ZappyRide"
-            },
-            "duration": {
-              "start": "2020",
-              "end": "2021"
-            },
-            "headline": "Executed end-to-end development of web tools to highlight electric vehicle benefits.",
-            "skillz": "React, GraphQL API, CSS3, HTML5, statistics, data representation",
-            "details": {
-              "item": [
-                "Pioneered inversion-of-control architecture in React, enabling flexible app development.",
-                "Created algorithms to evaluate economic and ecological impacts of \"going electric\" across regions.",
-                "Built a platform guiding industrial fleets in transitioning to electric or hydrogen vehicles."
-              ]
-            }
-          },
-          {
-            "id": "billboard",
-            "company": {
-              "coName": "Billboard, The Hollywood Reporter, and Vibe"
-            },
-            "title": "Senior Front End Engineer: Ad Tech",
-            "duration": {
-              "start": "2019",
-              "end": "2020"
-            },
-            "headline": "Maximized ad revenue by spearheading front-end ad wrapper development.",
-            "skillz": "ES6, TypeScript, NPM, Python, CSS3, Docker, header bidding, video header bidding, viewability verification",
-            "details": {
-              "item": [
-                "Replaced legacy ad wrapper, improving compatibility with new site developments.",
-                "Reduced development cycles from weeks to days by decoupling ad tech and site codebases.",
-                "Created an NPM module to support Video Header Bidding.",
-                "Guided and mentored new hires and junior developers."
-              ]
-            }
-          },
-          {
-            "id": "sheknows",
-            "company": {
-              "coName": "SHEMedia"
-            },
-            "title": "Full Stack Engineer",
-            "duration": {
-              "start": "2017",
-              "end": "2019"
-            },
-            "headline": "Developed full-stack online ad products, empowering 1000+ publishers to monetize content.",
-            "skillz": "ES6, PHP, Laravel, Blade, Docker, privacy regulations, liaising with vendors",
-            "details": {
-              "item": [
-                "Refactored a 9000-line JavaScript codebase into modules, enhancing development speed and safety.",
-                "Developed a WordPress plugin to streamline ad tech integration for SHEMedia partners.",
-                "Implemented Jest unit testing for robust code validation.",
-                "Deployed a network-wide GDPR solution in collaboration with QuantCast.",
-                "Created a WordPress plugin that simplified ad tech integration for SHEMedia's publisher partner sites"
-              ]
-            }
-          },
-          {
-            "id": "viant",
-            "company": {
-              "coName": "Vindico/VIANT Time Inc"
-            },
-            "title": "Lead Software Engineer",
-            "duration": {
-              "start": "2011",
-              "end": "2017"
-            },
-            "headline": "ept video ad rendering and playback app competitive and ahead of industry and technical trends.",
-            "skillz": "ES6, SQL, GBQ, RTB, VPAID, ActionScript 3.0, ES5, VPAID, Docker, unit testing, viewability verification",
-            "details": {
-              "item": [
-                "Led development of a JavaScript video ad platform for playback and event tracking.",
-                "Engineered tools for creating custom video ad formats tailored to clients across diverse industries.",
-                "Engineered video viewability verification solutions in partnership with MOAT, Integral Ad Science, and ComScore.",
-                "Diagnosed and resolved production issues within hours, using database intelligence.",
-                "Developed a query library for diagnosing and troubleshooting production issues with tracking data.",
-                "Led development efforts for integrations with third-party video players."
-              ]
-            }
-          },
-          {
-            "id": "abc",
-            "company": {
-              "coName": "Walt Disney/ABC"
-            },
-            "title": "Web Developer/Technical Project Manager",
-            "duration": {
-              "start": "2007",
-              "end": "2011"
-            },
-            "headline": "Created web-based tools for Sales and Marketing, optimizing content production.",
-            "skillz": "ActionScript 3.0, ES5, HTML5, CSS, PHP, SQL, Visual Basic",
-            "details": {
-              "item": [
-                "Directed a multi-disciplinary team for nationwide live online video broadcasts.",
-                "Developed automated solution for entering large Nielsen data sets, saving the team weeks of manual effort.",
-                "Led two website restructures, integrating modern technologies.",
-                "Enhanced content production and updates through reusable methods and cross-platform XML schemas.",
-                "Developed the inaugural mobile version of the website."
-              ]
-            }
-          }
-        ]
-      },
       "education": {
         "title": "Education",
         "school": [
@@ -271,6 +125,292 @@
             }
           }
         ]
+      },
+      "experience": {
+        "title": "Professional Exprience",
+        "positions": [
+            {
+              "id": "currentProjects3",
+              "active": true,
+              "title": "Python/Docker Developer - Self Employed",
+              "duration": {
+                "start": "2024",
+                "end": "Present"
+              },
+              "headline": "Developing Docker containers for learning, sandboxing, development, and API integration.",
+              "skillz": "Python, Docker, GraphQL, API, AI Prompts"
+            },
+            {
+              "id": "apartmentTherapy",
+              "active": true,
+              "title": "Software Engineer, Ad Tech",
+              "company": {
+                "coName": "Apartment Therapy Media"
+              },
+              "duration": {
+                "start": "2021",
+                "end": "2023"
+              },
+              "headline": "Optimized ad tech functionality and header bidding for lifestyle websites.",
+              "skillz": "ES6, React, Next.js, header bidding, video header bidding, Jest",
+              "items": [
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Engineered Prebid and Amazon TAM integrations from the ground up."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Introduced video header bidding."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Increased unit test coverage, enhancing development speed and safety."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Developed ad rendering strategies that enhanced viewability and boosted bid values."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Created comprehensive ad injection logic documentation, aligning stakeholders."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Directed user response analysis for new ad types, leveraging Google Ad Manager and Google Analytics."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "zappyride",
+              "active": true,
+              "title": "Senior Front End Engineer",
+              "company": {
+                "coName": "ZappyRide"
+              },
+              "duration": {
+                "start": "2020",
+                "end": "2021"
+              },
+              "headline": "Executed end-to-end development of web tools to highlight electric vehicle benefits.",
+              "skillz": "React, GraphQL API, CSS3, HTML5, statistics, data representation",
+              "items": [
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Pioneered inversion-of-control architecture in React, enabling flexible app development."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Created algorithms to evaluate economic and ecological impacts of \"going electric\" across regions."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Built a platform guiding industrial fleets in transitioning to electric or hydrogen vehicles."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "billboard",
+              "active": true,
+              "title": "Senior Front End Engineer: Ad Tech",
+              "company": {
+                "coName": "Billboard, The Hollywood Reporter, and Vibe"
+              },
+              "duration": {
+                "start": "2019",
+                "end": "2020"
+              },
+              "headline": "Maximized ad revenue by spearheading front-end ad wrapper development.",
+              "skillz": "ES6, TypeScript, NPM, Python, CSS3, Docker, header bidding, video header bidding, viewability verification",
+              "items": [
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Replaced legacy ad wrapper, improving compatibility with new site developments."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Reduced development cycles from weeks to days by decoupling ad tech and site codebases."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Created an NPM module to support Video Header Bidding."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Guided and mentored new hires and junior developers."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "sheknows",
+              "active": true,
+              "title": "Full Stack Engineer",
+              "company": {
+                "coName": "SHEMedia"
+              },
+              "duration": {
+                "start": "2017",
+                "end": "2019"
+              },
+              "headline": "Developed full-stack online ad products, empowering 1000+ publishers to monetize content.",
+              "skillz": "ES6, PHP, Laravel, Blade, Docker, privacy regulations, liaising with vendors",
+              "items": [
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Refactored a 9000-line JavaScript codebase into modules, enhancing development speed and safety."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Developed a WordPress plugin to streamline ad tech integration for SHEMedia partners."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Implemented Jest unit testing for robust code validation."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Deployed a network-wide GDPR solution in collaboration with QuantCast."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Created a WordPress plugin that simplified ad tech integration for SHEMedia's publisher partner sites."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "viant",
+              "active": true,
+              "title": "Lead Software Engineer",
+              "company": {
+                "coName": "Vindico/VIANT Time Inc"
+              },
+              "duration": {
+                "start": "2011",
+                "end": "2017"
+              },
+              "headline": "ept video ad rendering and playback app competitive and ahead of industry and technical trends.",
+              "skillz": "ES6, SQL, GBQ, RTB, VPAID, ActionScript 3.0, ES5, VPAID, Docker, unit testing, viewability verification",
+              "items": [
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Led development of a JavaScript video ad platform for playback and event tracking."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Engineered tools for creating custom video ad formats tailored to clients across diverse industries."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Engineered video viewability verification solutions in partnership with MOAT, Integral Ad Science, and ComScore."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Diagnosed and resolved production issues within hours, using database intelligence."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Developed a query library for diagnosing and troubleshooting production issues with tracking data."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Led development efforts for integrations with third-party video players."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "abc",
+              "active": "true",
+              "title": "Web Developer/Technical Project Manager",
+              "company": {
+                "coName": "Walt Disney/ABC"
+              },
+              "duration": {
+                "start": "2007",
+                "end": "2011"
+              },
+              "headline": "Created web-based tools for Sales and Marketing, optimizing content production.",
+              "skillz": "ActionScript 3.0, ES5, HTML5, CSS, PHP, SQL, Visual Basic",
+              "items": [
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Directed a multi-disciplinary team for nationwide live online video broadcasts."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Developed automated solution for entering large Nielsen data sets, saving the team weeks of manual effort."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Led two website restructures, integrating modern technologies."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Enhanced content production and updates through reusable methods and cross-platform XML schemas."
+                  }
+                },
+                {
+                  "item": {
+                    "active": true,
+                    "text": "Developed the inaugural mobile version of the website."
+                  }
+                }
+              ]
+            }
+          ]          
       }
     }
   }
