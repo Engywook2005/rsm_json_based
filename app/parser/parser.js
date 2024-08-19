@@ -21,9 +21,10 @@ function buildSkills(skills) {
 }
 
 function buildSidebar(obj, el) {
+    // each should be a call to an html builder function, like buildSkills
 
     const contactInfo = obj.contactInfo;
-    const skillset = obj.skills;
+    const skillset = buildSkills(obj.skills);
     const accomplishments = obj.accomplishments;
     const education = obj.education;
 
