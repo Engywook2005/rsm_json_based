@@ -1,3 +1,7 @@
-import { greet } from './howdy';
+import { fetch } from './fetch';
 
-greet('Dr Fish and Grizelda')
+window.parseResume = (jsonPath, target) => {
+    fetch(jsonPath)
+}
+
+window.triggerParse();
