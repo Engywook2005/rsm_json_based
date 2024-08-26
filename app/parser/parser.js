@@ -13,6 +13,7 @@ function createSkillList(skills, el) {
 }
 
 function buildSkills(skills) {
+    debugger;
     const skillBlock = buildElement('skillset');
     addTitle(skills, skillBlock);
     createSkillList(skills, skillBlock);
@@ -29,7 +30,6 @@ function buildSidebar(obj, el) {
     const education = obj.education;
 
     el.appendChild(skillset);
-
 }
 
 export { buildSidebar }

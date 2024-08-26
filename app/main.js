@@ -7,8 +7,7 @@ window.parseResume = async function (jsonPath, target) {
     console.log(rsmObj);
     if(rsmObj.rsm) {
         const sidebar = buildElement('sidebar');
-
-
+        buildSidebar(rsmObj.rsm, sidebar);
     }
 }
 
