@@ -1,35 +1,34 @@
-import { buildElement } from "../htmlBuilder";
+import { buildElement } from '../htmlBuilder';
 
 function addTitle(obj, el) {
-    const title = buildElement('title');
-    title.innerHTML = obj.title;
-    el.appendChild(title);
+  const title = buildElement('title');
+  title.innerHTML = obj.title;
+  el.appendChild(title);
 }
 
 function createSkillList(skills, el) {
-    // create list of items
-    // might be easiest just to make them list items and hide the bullet points where not needed i.e. for education
-    // const items = 
+  // create list of items
+  // might be easiest just to make them list items and hide the bullet points where not needed i.e. for education
+  // const items =
 }
 
 function buildSkills(skills) {
-    debugger;
-    const skillBlock = buildElement('skillset');
-    addTitle(skills, skillBlock);
-    createSkillList(skills, skillBlock);
+  const skillBlock = buildElement('skillset');
+  addTitle(skills, skillBlock);
+  createSkillList(skills, skillBlock);
 
-    return skillBlock;
+  return skillBlock;
 }
 
 function buildSidebar(obj, el) {
-    // each should be a call to an html builder function, like buildSkills
+  // each should be a call to an html builder function, like buildSkills
 
-    const contactInfo = obj.contactInfo;
-    const skillset = buildSkills(obj.skills);
-    const accomplishments = obj.accomplishments;
-    const education = obj.education;
+  const contactInfo = obj.contactInfo;
+  const skillset = buildSkills(obj.skills);
+  const accomplishments = obj.accomplishments;
+  const education = obj.education;
 
-    el.appendChild(skillset);
+  el.appendChild(skillset);
 }
 
-export { buildSidebar }
+export { buildSidebar };
