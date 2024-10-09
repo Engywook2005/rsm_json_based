@@ -8,7 +8,6 @@ window.parseResume = async function (jsonPath, target) {
   if (rsmObj.rsm) {
     const sidebar = buildElement('sidebar');
     buildSidebar(rsmObj.rsm, sidebar);
-    debugger;
     document.querySelector('#resume_container').appendChild(sidebar);
   }
 };
