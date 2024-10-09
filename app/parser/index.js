@@ -1,3 +1,3 @@
-import { buildSidebar } from "./parser"; 
+import { buildSidebar, buildWorkExperience } from './parser';
 
-export { buildSidebar }
+export { buildSidebar, buildWorkExperience };

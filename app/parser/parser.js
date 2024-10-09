@@ -26,7 +26,7 @@ function buildEduBlock(data, el) {
 
 function buildContactInfo(data, el) {
   const contactInfo = document.createElement('div');
-  contactInfo.innerText = JSON.stringify(data.nameContact);
+  contactInfo.innerText = JSON.stringify(data);
   el.appendChild(contactInfo);
 }
 
@@ -47,4 +47,8 @@ function buildSidebar(obj, el) {
   el.appendChild(education);
 }
 
-export { buildSidebar };
+function buildWorkExperience(obj, el) {
+  console.log('fish');
+}
+
+export { buildSidebar, buildWorkExperience };
