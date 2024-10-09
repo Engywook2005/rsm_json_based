@@ -6,47 +6,40 @@ function addTitle(obj, el) {
   el.appendChild(title);
 }
 
-function fillDetails(data, el) {
-  // create list of items
-  // might be easiest just to make them list items and hide the bullet points where not needed i.e. for education
-  // const items =
+function fillBullets(data, el) {
+  const bulletBlock = document.createElement('div');
+  bulletBlock.innerText = JSON.stringify(data.items);
+  el.appendChild(bulletBlock);
 }
 
-function buildInfoBlock(data, elementId) {
-  const infoBlock = buildElement(elementId);
-  addTitle(data, infoBlock);
-  fillDetails(data, infoBlock);
-
-  return infoBlock;
+function buildInfoBlock(data, el) {
+  addTitle(data, el);
+  fillBullets(data, el);
 }
 
-function buildEduBlock(data, elementId) {
-  const eduBlock = buildElement(elementId);
-  addTitle(data, eduBlock);
+function buildEduBlock(data, el) {
+  addTitle(data, el);
   const edu = document.createElement('div');
-  edu.innerText = JSON.stringify(data);
-  eduBlock.appendChild(edu);
-  return eduBlock;
+  edu.innerText = JSON.stringify(data.school);
+  el.appendChild(edu);
 }
 
-function buildContactInfo(data, elementId) {
-  const contactInfoBlock = buildElement(elementId);
+function buildContactInfo(data, el) {
   const contactInfo = document.createElement('div');
   contactInfo.innerText = JSON.stringify(data.nameContact);
-  contactInfoBlock.appendChild(contactInfo);
-  return contactInfoBlock;
+  el.appendChild(contactInfo);
 }
 
 function buildSidebar(obj, el) {
-  // each should be a call to an html builder function, like buildSkills
+  const contactInfo = buildElement('contact_info');
+  const skillset = buildElement('skills_accomplishments');
+  const accomplishments = buildElement('skills_accomplishments');
+  const education = buildElement('education');
 
-  const contactInfo = buildContactInfo(obj.contact, 'contact_info');
-  const skillset = buildInfoBlock(obj.skills, 'skillset');
-  const accomplishments = buildInfoBlock(
-    obj.accomplishments,
-    'accomplishments'
-  );
-  const education = buildEduBlock(obj.education, 'education');
+  buildContactInfo(obj.contact, contactInfo);
+  buildInfoBlock(obj.skills, skillset);
+  buildInfoBlock(obj.accomplishments, accomplishments);
+  buildEduBlock(obj.education, education);
 
   el.appendChild(contactInfo);
   el.appendChild(skillset);
