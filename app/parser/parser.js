@@ -30,9 +30,9 @@ function buildEduBlock(data, el) {
 }
 
 function buildContactInfo(data, el) {
-  const contactInfo = document.createElement('div');
-  contactInfo.innerText = JSON.stringify(data);
-  el.appendChild(contactInfo);
+  const nameContact = data.nameContact;
+
+  el.innerHTML = `${nameContact.name}<br/>${nameContact.email}<br/>${nameContact.phone}`;
 }
 
 function buildSidebar(obj, el) {
