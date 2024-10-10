@@ -24,9 +24,12 @@ function buildInfoBlock(data, el) {
 
 function buildEduBlock(data, el) {
   addBlockTitle(data, el);
-  const edu = document.createElement('div');
-  edu.innerText = JSON.stringify(data.school);
-  el.appendChild(edu);
+  data.school.forEach((school) => {
+    const schoolBlock = buildElement('school');
+    const schoolData = school.school;
+    schoolBlock.innerHTML = `${schoolData.schName}<br/>${schoolData.schAddress}`;
+    el.appendChild(schoolBlock);
+  });
 }
 
 function buildContactInfo(data, el) {
