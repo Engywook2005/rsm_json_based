@@ -1,7 +1,10 @@
 import { buildElement } from '../htmlBuilder';
 
-function addBlockTitle(obj, el) {
+function addBlockTitle(obj, el, extraClass = null) {
   const title = buildElement('title');
+  if (extraClass) {
+    title.classList.add(extraClass);
+  }
   title.innerHTML = obj.title;
   el.appendChild(title);
 }
@@ -78,7 +81,7 @@ function handleTopLevelDetails(obj, el) {
 }
 
 function buildWorkExperience(obj, el) {
-  addBlockTitle(obj, el);
+  addBlockTitle(obj, el, 'experience');
 
   // Only handle active positions
   const activePositions = obj.positions.filter((position) => {

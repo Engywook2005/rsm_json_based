@@ -42,5 +42,32 @@ body {
         }
       }
     }
+
+    .title.experience {
+      text-transform: uppercase;
+      text-decoration: underline;
+      margin-top: $vertical-separation;
+    }
+
+    .title.experience, .position {
+      width: 100%;
+    }
+
+    .position {
+      margin-bottom: $vertical-separation;
+
+      .employer_duration, .job_title {
+        font-weight: bold;
+      }
+      
+      .employer_duration {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .job_skills {
+        font-style: italic;
+      }
+    }
   }
 }
