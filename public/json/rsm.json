@@ -17,7 +17,7 @@
         "items": [
         {
             "active": true,
-            "text": "<u>Core</u>: JavaScript (ES6), Node.js, Jest, PHP, JSON, XML, Python"
+            "text": "<u>Core</u>: JavaScript (ES6), Node.js, Jest, PHP, JSON, XML"
         },
         {
             "active": true,
@@ -45,7 +45,7 @@
         },
         {
             "active": true,
-            "text": "<u>Developing</u>: NumPy, Pandas, MongoDB"
+            "text": "<u>Developing</u>: Python, NumPy, Pandas, MongoDB"
         }
         ]          
       },
