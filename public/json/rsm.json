@@ -106,7 +106,10 @@
             {
               "id": "currentProjects3",
               "active": true,
-              "title": "Python/Docker Developer - Self Employed",
+              "title": "Python/Docker Developer",
+              "company": {
+                "coName": "Self Employed"
+              },
               "duration": {
                 "start": "2024",
                 "end": "Present"
