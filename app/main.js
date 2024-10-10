@@ -1,6 +1,7 @@
 import { fetch } from './fetch';
 import { buildElement } from './htmlBuilder';
 import { buildSidebar, buildWorkExperience } from './parser';
+import '../scss/style.scss';
 
 window.parseResume = async function (jsonPath) {
   const rsmObj = await fetch(jsonPath);
