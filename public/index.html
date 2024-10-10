@@ -3,10 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home page</title>
+        <title>Resume for Greg Thorson</title>
+        <script type = "text/javascript">
+            window.triggerParse = function() {
+                window.parseResume('json/rsm.json', 'resume_container');
+            }
+        </script>
     </head>
     <body>
-        <div>It works!</div>
+        <div id="resume_container"></div>
         <script type="text/javascript" src="js/bundle.js"></script>
     </body>
 </html>
