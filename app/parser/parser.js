@@ -7,9 +7,13 @@ function addBlockTitle(obj, el) {
 }
 
 function fillBullets(data, el) {
-  const bulletBlock = document.createElement('div');
+  const bulletBlock = document.createElement('ul');
   const activeItems = data.items.filter((item) => item.active);
-  bulletBlock.innerHTML = JSON.stringify(activeItems);
+  activeItems.forEach((item) => {
+    const listItem = document.createElement('li');
+    listItem.innerHTML = item.text;
+    bulletBlock.appendChild(listItem);
+  });
   el.appendChild(bulletBlock);
 }
 
