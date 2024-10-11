@@ -1,5 +1,6 @@
 $light-gray: #cccccc;
 $vertical-separation: 1rem;
+$position-margin: calc(2in + 3rem);
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -48,13 +49,13 @@ body {
       text-transform: uppercase;
       text-decoration: underline;
       margin-top: $vertical-separation;
-      margin-left: calc(2in + 2rem);
+      margin-left: $position-margin;
     }
 
     .position {
       margin-bottom: $vertical-separation;
-      margin-left: calc(2in + 2rem);
-      border: solid #ff0000 1px;
+      margin-left: $position-margin;
+      page-break-inside: avoid;
 
       .employer_duration, .job_title {
         font-weight: bold;
