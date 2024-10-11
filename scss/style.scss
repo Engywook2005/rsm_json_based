@@ -1,0 +1,80 @@
+$light-gray: #cccccc;
+$vertical-separation: 1rem;
+$position-margin: calc(2in + 3rem);
+
+@media print {
+  .position.page-2 {
+     margin-left: 0 !important
+  }
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+
+  #resume_container {
+    width: 7.5in;
+    margin-top: $vertical-separation;
+
+    ul {
+      margin-top: 0;
+    }  
+
+    .title {
+      font-weight: bold;
+    }
+
+    .sidebar {
+      float: left;
+      width: 2in;
+      background-color: $light-gray;
+      padding: 0.75rem; 
+      border: #000000 2px solid;
+      border-radius: 10px;
+
+      ul {
+        margin-left: -16px;
+      }
+
+      .contact_info {
+        margin-bottom: $vertical-separation;
+      }
+
+      .education {
+        .school {
+          margin-bottom: $vertical-separation;
+        }
+      }
+    }
+
+    .title.experience {
+      text-transform: uppercase;
+      text-decoration: underline;
+      margin-top: $vertical-separation;
+      margin-left: $position-margin;
+    }
+
+    .position {
+      margin-bottom: $vertical-separation;
+      margin-left: $position-margin;
+      page-break-inside: avoid;
+
+      .employer_duration, .job_title {
+        font-weight: bold;
+      }
+      
+      .employer_duration {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .job_skills {
+        font-style: italic;
+      }
+    }
+  }
+}

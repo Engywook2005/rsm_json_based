@@ -2,10 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  entry: [
-    'webpack-hot-middleware/client?reload=true',
-    './app/main.js'
-  ],
+  entry: ['webpack-hot-middleware/client?reload=true', './app/main.js'],
   output: {
     path: path.resolve(__dirname, 'public/js'),
     filename: 'bundle.js',
@@ -20,10 +17,12 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
+  plugins: [new webpack.HotModuleReplacementPlugin()]
 };

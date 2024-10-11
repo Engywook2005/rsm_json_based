@@ -1,7 +1,10 @@
 import { buildElement } from '../htmlBuilder';
 
-function addBlockTitle(obj, el) {
+function addBlockTitle(obj, el, extraClass = null) {
   const title = buildElement('title');
+  if (extraClass) {
+    title.classList.add(extraClass);
+  }
   title.innerHTML = obj.title;
   el.appendChild(title);
 }
@@ -78,10 +81,11 @@ function handleTopLevelDetails(obj, el) {
 }
 
 function buildWorkExperience(obj, el) {
-  addBlockTitle(obj, el);
+  addBlockTitle(obj, el, 'experience');
 
   // Only handle active positions
   const activePositions = obj.positions.filter((position) => {
+    // @TODO - add ids for positions and items. This way separate, dedicated json docs can track whether each item is active, and I won't have to worry about keeping the text the same between multiple documents.
     return position.active;
   });
 
