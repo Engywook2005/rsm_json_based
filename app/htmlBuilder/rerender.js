@@ -1,17 +1,15 @@
 function removeMarginFromPos() {
-  const sidebar = document.querySelector('.sidebar');
   const positions = document.querySelectorAll('.position');
 
-  const sidebarBottom = sidebar.getBoundingClientRect().bottom + scrollY;
-
-  positions.forEach((position) => {
+  positions.forEach((position, i) => {
     const rect = position.getBoundingClientRect();
 
-    const posTop = rect.top + scrollY;
     const posBottom = rect.bottom + scrollY;
+    console.log(`${i} ${posBottom}`);
+    const pageBottom = 1005;
 
-    if (posBottom > sidebarBottom) {
-      position.style.marginLeft = '0';
+    if (posBottom > pageBottom) {
+      position.classList.add('page-2');
     }
   });
 }
