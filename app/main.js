@@ -1,5 +1,5 @@
 import { fetch } from './fetch';
-import { buildElement } from './htmlBuilder';
+import { buildElement, removeMarginFromPos } from './htmlBuilder';
 import { buildSidebar, buildWorkExperience } from './parser';
 import '../scss/style.scss';
 
@@ -11,6 +11,8 @@ window.parseResume = async function (jsonPath) {
     buildSidebar(rsmObj.rsm, sidebar);
     target.appendChild(sidebar);
     buildWorkExperience(rsmObj.rsm.experience, target);
+
+    removeMarginFromPos();
   }
 };
 
