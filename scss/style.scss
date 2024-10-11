@@ -1,5 +1,12 @@
 $light-gray: #cccccc;
 $vertical-separation: 1rem;
+$position-margin: calc(2in + 3rem);
+
+@media print {
+  .position.page-2 {
+     margin-left: 0 !important
+  }
+}
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -22,6 +29,7 @@ body {
     }
 
     .sidebar {
+      float: left;
       width: 2in;
       background-color: $light-gray;
       padding: 0.75rem; 
@@ -47,14 +55,13 @@ body {
       text-transform: uppercase;
       text-decoration: underline;
       margin-top: $vertical-separation;
-    }
-
-    .title.experience, .position {
-      width: 100%;
+      margin-left: $position-margin;
     }
 
     .position {
       margin-bottom: $vertical-separation;
+      margin-left: $position-margin;
+      page-break-inside: avoid;
 
       .employer_duration, .job_title {
         font-weight: bold;
