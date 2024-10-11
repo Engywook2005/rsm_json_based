@@ -22,6 +22,7 @@ body {
     }
 
     .sidebar {
+      float: left;
       width: 2in;
       background-color: $light-gray;
       padding: 0.75rem; 
@@ -47,14 +48,13 @@ body {
       text-transform: uppercase;
       text-decoration: underline;
       margin-top: $vertical-separation;
-    }
-
-    .title.experience, .position {
-      width: 100%;
+      margin-left: calc(2in + 2rem);
     }
 
     .position {
       margin-bottom: $vertical-separation;
+      margin-left: calc(2in + 2rem);
+      border: solid #ff0000 1px;
 
       .employer_duration, .job_title {
         font-weight: bold;
